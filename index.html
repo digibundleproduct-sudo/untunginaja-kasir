@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untunginaja Kasir</title>
+<style>
+  :root { --zamrud: #0B4D38; --emas: #E8CF8A; --teks: #0E1B3D; --redup: #667085; }
+  body { margin: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #F5F6F8; color: var(--teks); }
+  main { max-width: 480px; margin: 0 auto; padding: 48px 20px; }
+  .logo { width: 64px; height: 64px; border-radius: 18px; background: var(--zamrud); color: var(--emas); display: grid; place-items: center; font-weight: 800; font-size: 28px; }
+  h1 { font-size: 26px; margin: 18px 0 6px; }
+  p { color: var(--redup); line-height: 1.5; }
+  a.tombol { display: block; text-align: center; margin: 24px 0 12px; padding: 16px; border-radius: 14px; background: #12805A; color: #fff; font-weight: 700; text-decoration: none; }
+  ol { line-height: 1.7; padding-left: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo">U</div>
+  <h1>Untunginaja Kasir</h1>
+  <p>Aplikasi kasir Android, bonus untuk pembeli Untunginaja. Versi terbaru: <b id="versi">1.0.2</b>.</p>
+  <a class="tombol" href="https://github.com/digibundleproduct-sudo/untunginaja-kasir/releases/latest/download/untunginaja-kasir.apk">Unduh APK terbaru</a>
+  <ol>
+    <li>Ketuk file yang terunduh, lalu pilih <b>Instal</b> atau <b>Perbarui</b>.</li>
+    <li>Bila diminta, izinkan pemasangan dari sumber ini.</li>
+    <li>Sudah memakai versi lama? Buat <b>Backup data</b> dulu di menu Lainnya. Data kasir tetap ada setelah update.</li>
+  </ol>
+  <p>Butuh Android 7.0 atau lebih baru.</p>
+</main>
+<script>
+  fetch('versi.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (v) { document.getElementById('versi').textContent = v.versi; }).catch(function () {});
+</script>
+</body>
+</html>
