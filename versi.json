@@ -1,6 +1,6 @@
 {
-  "versi": "1.0.2",
-  "kode": 3,
+  "versi": "1.0.5",
+  "kode": 6,
   "link": "https://github.com/digibundleproduct-sudo/untunginaja-kasir/releases/latest/download/untunginaja-kasir.apk",
-  "catatan": "Cek versi baru otomatis, menu bawah tidak tertutup tombol HP, dan pratinjau hasil cetak tanpa printer."
+  "catatan": "Nama baru One POS dan logo baru, plus PIN lebih aman, backup terkunci, QRIS bernominal, foto produk, logo & struk gambar, nomor antrian, dan Beranda."
 }

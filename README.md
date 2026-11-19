@@ -1,4 +1,4 @@
-# Untunginaja Kasir — rilis
+# One POS — rilis
 
 Repo ini hanya berisi berkas rilis aplikasi kasir Android Untunginaja (tanpa kode sumber).
 
