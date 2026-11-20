@@ -1,6 +1,6 @@
 {
-  "versi": "1.0.5",
-  "kode": 6,
+  "versi": "1.0.6",
+  "kode": 7,
   "link": "https://github.com/digibundleproduct-sudo/untunginaja-kasir/releases/latest/download/untunginaja-kasir.apk",
-  "catatan": "Nama baru One POS dan logo baru, plus PIN lebih aman, backup terkunci, QRIS bernominal, foto produk, logo & struk gambar, nomor antrian, dan Beranda."
+  "catatan": "Masuk dengan sidik jari, atur ulang PIN pemilik yang lupa, pilih bulan/tanggal di Riwayat & Laporan, dan perbaikan pulihkan backup."
 }
