@@ -1,6 +1,6 @@
 {
-  "versi": "1.0.6",
-  "kode": 7,
+  "versi": "1.0.7",
+  "kode": 8,
   "link": "https://github.com/digibundleproduct-sudo/untunginaja-kasir/releases/latest/download/untunginaja-kasir.apk",
-  "catatan": "Masuk dengan sidik jari, atur ulang PIN pemilik yang lupa, pilih bulan/tanggal di Riwayat & Laporan, dan perbaikan pulihkan backup."
+  "catatan": "Penyimpanan data lebih lega dan aman, supaya transaksi toko yang ramai tidak hilang. Data lama dipindahkan otomatis."
 }
