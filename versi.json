@@ -1,6 +1,6 @@
 {
-  "versi": "1.0.7",
-  "kode": 8,
+  "versi": "1.0.8",
+  "kode": 9,
   "link": "https://github.com/digibundleproduct-sudo/untunginaja-kasir/releases/latest/download/untunginaja-kasir.apk",
-  "catatan": "Penyimpanan data lebih lega dan aman, supaya transaksi toko yang ramai tidak hilang. Data lama dipindahkan otomatis."
+  "catatan": "Foto produk langsung dari kamera, stok menipis bisa langsung ditambah dari Laporan, hapus produk, dan penjelasan Pesanan tersimpan."
 }
